@@ -69,6 +69,7 @@ int main() {
         cout << "Prodi          : "; getline(cin, Prodi);
 
         Alamat alamat(namaJalan, noRumah, RT, RW, Desa);
+        
         mahasiswas.emplace_back(NIM, Nama, alamat, Prodi);
     }
 
